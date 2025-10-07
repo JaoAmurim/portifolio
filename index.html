@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>João Pedro Amorim | Full Stack Developer</title>
+    <meta name="description"
+        content="Portfólio de João Pedro Amorim: Desenvolvedor Full Stack em transição, especialista em T.I. e focado em tecnologias modernas e carreira global.">
+    <meta name="keywords"
+        content="Full Stack, ADS, Jovem Aprendiz T.I., Riofer Metais, JavaScript, React, Node.js, Portfólio, Desenvolvedor">
+
+
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* Mantenha o preloader do template, mas ajuste a cor do fundo e do spinner para sua paleta (Preto/Azul) */
+        #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #1a1a1d;
+            /* Preto Escuro */
+            z-index: 9999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #preloader::after {
+            content: "";
+            width: 50px;
+            height: 50px;
+            border: 6px solid #00c7e5;
+            /* Azul Claro/Acento */
+            border-top-color: transparent;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Estilos customizados para a nova seção (Opcional) */
+        .plan-card {
+            background-color: #1a1a1d;
+            border: 1px solid #007bff;
+            transition: transform 0.3s;
+        }
+
+        .plan-card:hover {
+            transform: translateY(-5px);
+            border-color: #00c7e5;
+        }
+    </style>
+</head>
+
+<body class="index-page">
+
+    <header id="header" class="header sticky-top">
+        <div class="branding d-flex align-items-center">
+
+            <div class="container position-relative d-flex align-items-center justify-content-between">
+                <a href="#hero" class="logo d-flex align-items-center me-auto">
+                    <span style="font-size: 1.8rem; font-weight: 700; color: #007bff;">JP</span>
+                    <span style="font-size: 1.8rem; font-weight: 300; color: #00c7e5;">Dev.</span>
+                </a>
+
+
+
+                <nav id="navmenu" class="navmenu">
+                    <ul>
+                        <li><a href="#hero" class="active">Início</a></li>
+                        <li><a href="#jornada">Jornada</a></li>
+                        <li><a href="#profissao-e-skills">Profissão & Skills</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                </nav>
+
+
+                <a class="cta-btn d-none d-sm-block" href="#contato">Contate-me (EN/PT)</a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <section id="hero" class="hero section">
+
+            <div class="container position-relative">
+
+                <div class="welcome position-relative" data-aos="fade-down" data-aos-delay="100">
+                    <h2 style="color: #00c7e5;">JOÃO PEDRO AMORIM</h2>
+                    <p style="color: aliceblue; font-size: 1.5rem; font-weight: 600;">
+                        Desenvolvedor Full Stack em Transição
+                    </p>
+                    <p style="color: #999;">
+                        Me chamo João Pedro, tenho 18 anos e moro em São José do Rio Pardo/SP. Meu objetivo
+                        profissional atual é aplicar minha base em T.I. corporativa para me tornar um Desenvolvedor Full
+                        Stack Sênior,
+                        focado em arquiteturas de software modernas e escaláveis. Sou fascinado por criação de sites e
+                        sistemas complexos
+                        nas horas vagas, o que reforça minha paixão por lógica e planejamento.
+                    </p>
+                </div>
+                <div class="content row gy-4">
+                    <div class="col-lg-4 d-flex align-items-stretch">
+                        <div class="why-box" data-aos="zoom-out" data-aos-delay="200">
+                            <h3>Visão de Carreira</h3>
+                            <p>
+                                Busco aplicar a lógica de T.I. na criação de sites ou sistemas robustos e eficientes,
+                                dominando o
+                                ciclo completo de desenvolvimento (Front-end e Back-end).
+                            </p>
+                            <ul class="list-check">
+                                <li style="color: #00c7e5;"><i class="bi bi-check-circle-fill"
+                                        style="color: #00c7e5;"></i> Proficiência em Full Stack (Meta)</li>
+                                <li style="color: #00c7e5;"><i class="bi bi-check-circle-fill"
+                                        style="color: #00c7e5;"></i> Fluência em Inglês (Desejo)</li>
+                                <li style="color: #00c7e5;"><i class="bi bi-check-circle-fill"
+                                        style="color: #00c7e5;"></i> Transitando de T.I. para a Arquitetura de Software:
+                                    Meu foco é construir a próxima geração de sistemas robustos, utilizando o ciclo Full
+                                    Stack completo (código, segurança e deploy).</li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="#jornada" class="more-btn"><span>Conheça a Jornada</span> <i
+                                        class="bi bi-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 d-flex align-items-stretch">
+                        <div class="d-flex flex-column justify-content-center">
+                            <div class="row gy-4">
+
+                                <div class="col-xl-4 d-flex align-items-stretch">
+                                    <div class="icon-box" data-aos="zoom-out" data-aos-delay="300">
+                                        <i class="bi bi-code-slash" style="color: #00c7e5;"></i>
+                                        <h4 style="color: #007bff;">Front-end</h4>
+                                        <h6 style="color:#333">HTML, CSS, JavaScript (ES6+), React/Vue (em foco).</h6>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 d-flex align-items-stretch">
+                                    <div class="icon-box" data-aos="zoom-out" data-aos-delay="400">
+                                        <i class="bi bi-server" style="color: #00c7e5;"></i>
+                                        <h4 style="color: #007bff;">Back-end & DB</h4>
+                                        <h6 style="color:#333">Node.js (ou Python), APIs RESTful, SQL
+                                            (PostgreSQL/MySQL).</h6>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 d-flex align-items-stretch">
+                                    <div class="icon-box" data-aos="zoom-out" data-aos-delay="500">
+                                        <i class="bi bi-git" style="color: #00c7e5;"></i>
+                                        <h4 style="color: #007bff;">Ferramentas & DevOps</h4>
+                                        <h6 style="color:#333">Git/GitHub, Linux, Conceitos de Cloud (AWS/Azure), Docker
+                                            (básico).</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="jornada" class="py-5 text-white" style="background-color: #1a1a1d;">
+            <div class="container">
+                <h2 class="fw-bold text-center mb-5" style="color: #007bff;">Minha Jornada</h2>
+
+                <p class="mb-5 fs-5 text-center" style="max-width: 900px; margin: 0 auto;">
+                    Minha trajetória é marcada pela busca contínua por conhecimento em tecnologia. Minha experiência
+                    profissional como Jovem Aprendiz na Riofer Metais é o ponto de convergência de anos de estudo
+                    técnico e superior.
+                </p>
+
+                <div class="row g-4 justify-content-center">
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card plan-card p-4 h-100 text-start">
+                            <i class="bi bi-code-slash fs-2 mb-3" style="color: #00c7e5;"></i>
+                            <h5 style="color: #ffffff;">2022-2024: Ensino Médio Técnico (ETEC)</h5>
+                            <h6 style="color: #007bff;">Base em Desenvolvimento de Sistemas e Informatica</h6>
+                            <ul class="list-unstyled small text-muted mt-3">
+                                <li style="color: #fff;"><i class="bi bi-check-circle-fill me-2"
+                                        style="color: #007bff;"></i> Primeiras
+                                    impressões com criação de sites e sistemas.</li>
+                                <li style="color: #fff;"><i class="bi bi-check-circle-fill me-2"
+                                        style="color: #007bff;"></i> Conceitos de
+                                    Bancos de Dados, HTML, CSS e JavaScript.</li>
+                                <li style="color: #fff;"><i class="bi bi-check-circle-fill me-2"
+                                        style="color: #007bff;"></i> Curso paralelo
+                                    de informática: Aprofundamento em Web, Redes, Manutenção e Arduino.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card plan-card p-4 h-100 text-start">
+                            <i class="bi bi-laptop fs-2 mb-3" style="color: #00c7e5;"></i>
+                            <h5 style="color: #ffffff;">Início de 2025: Faculdade ADS (Python/C++)</h5>
+                            <h6 style="color: #007bff;">Análise e Desenvolvimento de Sistemas</h6>
+                            <ul class="list-unstyled small text-muted mt-3">
+                                <li style="color: #fff;"><i class="bi bi-check-circle-fill me-2"
+                                        style="color: #007bff;"></i> Foco em
+                                    lógica de programação e algoritmos.</li>
+                                <li style="color: #fff;"><i class="bi bi-check-circle-fill me-2"
+                                        style="color: #007bff;"></i> Linguagens
+                                    base: Python (1º Semestre) e C++ (2º Semestre).</li>
+                                <li style="color: #fff;"><i class="bi bi-check-circle-fill me-2"
+                                        style="color: #007bff;"></i> Preparação
+                                    acadêmica para a carreira Full Stack.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card plan-card p-4 h-100 text-start">
+                            <i class="bi bi-building fs-2 mb-3" style="color: #00c7e5;"></i>
+                            <h5 style="color: #ffffff;">Junho 2025: Jovem Aprendiz T.I. (Riofer)</h5>
+                            <h6 style="color: #007bff;">Aplicação Prática e Missão Crítica</h6>
+                            <h6 style="color: #fff;">
+                                Entrei na Riofer Metais para aplicar meus conhecimentos em um ambiente real. Esta
+                                experiência me colocou em contato direto com a manutenção de sistemas de missão
+                                crítica, o que me ensinou sobre:
+                            </h6>
+                            <ul class="list-unstyled small text-muted">
+                                <li style="color: #fff;"><i class="bi bi-arrow-right-circle-fill me-2"
+                                        style="color: #007bff;"></i>
+                                    Responsabilidade sob pressão.</li>
+                                <li style="color: #fff;"><i class="bi bi-arrow-right-circle-fill me-2"
+                                        style="color: #007bff;"></i>
+                                    Suporte Nível 1 e 2 ao usuário.</li>
+                                <li style="color: #fff;"><i class="bi bi-arrow-right-circle-fill me-2"
+                                        style="color: #007bff;"></i>
+                                    1° Impressão com correção de erros de BD em empresa.</li>
+                                <li style="color: #fff;"><i class="bi bi-arrow-right-circle-fill me-2"
+                                        style="color: #007bff;"></i>
+                                    Organização e otimização de infraestrutura.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-12 text-center pt-4">
+                        <a href="#profissao-e-skills" class="btn btn-lg px-4 py-2"
+                            style="background-color: #00c7e5; color: #1a1a1d; border: none;">
+                            <i class="bi bi-chevron-down me-2"></i> Ver Hard & Soft Skills e Meta Profissional
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="profissao-e-skills" class="py-5" style="background-color: #2c2c30;">
+            <div class="container">
+                <h2 class="text-center mb-5" style="color: #00c7e5;">Rumo à Profissão: Base & Futuro</h2>
+                <div class="row g-4">
+
+                    <div class="col-lg-6">
+                        <div class="card shadow-lg p-4 h-100 plan-card">
+                            <i class="bi bi-tools fs-3 mb-3" style="color: #00c7e5;"></i>
+                            <h4 style="color: #007bff;">Hard Skills Atuais & Meta</h4>
+                            <h6 style="color: #fff;">Conhecimentos práticos e acadêmicos que sustentam a transição para
+                                o
+                                desenvolvimento Full Stack.</h6>
+
+                            <h5 class="mt-3" style="color: #ffffff;">Base Sólida:</h5>
+                            <ul class="list-unstyled small text-white">
+                                <li><i class="bi bi-check-square me-2" style="color: #00c7e5;"></i> Fundamentos de
+                                    Programação: Lógica em Python e C++.</li>
+                                <li><i class="bi bi-check-square me-2" style="color: #00c7e5;"></i> Front-end
+                                    Essencial:
+                                    HTML5, CSS3, e JavaScript base.</li>
+                                <li><i class="bi bi-check-square me-2" style="color: #00c7e5;"></i> T.I.
+                                    Corporativa: Manutenção de Redes (TCP/IP), Suporte Windows e Sistemas de Missão
+                                    Crítica.</li>
+                                <li><i class="bi bi-check-square me-2" style="color: #00c7e5;"></i> Pacote Office e
+                                    Organização de Inventário.</li>
+                            </ul>
+
+                            <h5 class="mt-3" style="color: #ffffff;">Meta:</h5>
+                            <ul class="list-unstyled small text-white">
+                                <li><i class="bi bi-arrow-right-circle me-2" style="color: #007bff;"></i>Proficiência
+                                    em
+                                    React/Node.js: Fazer os cursos "Full Stack Master - Origamid" e "NodeJS The
+                                    Complete
+                                    Guide - Udemy" até Dezembro/2025.</li>
+                                <li><i class="bi bi-arrow-right-circle me-2" style="color: #007bff;"></i> Cloud
+                                    Computing:
+                                    Obter a certificação AWS Cloud Practitioner (Estudo com a Plataforma Alura).
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card shadow-lg p-4 h-100 plan-card">
+                            <i class="bi bi-people fs-3 mb-3" style="color: #00c7e5;"></i>
+                            <h4 style="color: #007bff;">Soft Skills e Plano de Ação</h4>
+                            <h6 style="color: #fff;">Minhas qualidades essenciais desenvolvidas na T.I. e adaptadas para
+                                o
+                                desenvolvimento de software.</h6>
+
+                            <h5 class="mt-3" style="color: #ffffff;">Minhas Habilidades:</h5>
+                            <ul class="list-unstyled small text-white">
+                                <li><i class="bi bi-hand-thumbs-up me-2" style="color: #00c7e5;"></i> Proatividade:
+                                    Agir para
+                                    resolver o problema, não apenas reportar, crucial para troubleshooting no código.
+                                </li>
+                                <li><i class="bi bi-hand-thumbs-up me-2" style="color: #00c7e5;"></i> Ética
+                                    Profissional: Respeito à confidencialidade e segurança dos dados, vindo da
+                                    experiência com Sistemas de Missão Crítica.</li>
+                                <li><i class="bi bi-hand-thumbs-up me-2" style="color: #00c7e5;"></i> Comunicação:
+                                    Traduzir
+                                    problemas técnicos complexos para a linguagem do cliente/usuário.</li>
+                            </ul>
+
+                            <h5 class="mt-3" style="color: #ffffff;">Meta:</h5>
+                            <ul class="list-unstyled small text-white">
+                                <li><i class="bi bi-lightbulb me-2" style="color: #007bff;"></i> Fluência em Inglês:
+                                    Manter
+                                    aulas de conversação 3x por semana para atingir nível técnico e profissional até
+                                    2026.
+                                </li>
+                                <li><i class="bi bi-lightbulb me-2" style="color: #007bff;"></i> Pensamento
+                                    Arquitetural:
+                                    Participar de grupos de estudo sobre Design Patterns para planejar sistemas mais
+                                    eficientes (Desenvolvimento prático em grupo no Discord).
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-12 mt-4">
+                        <div class="card shadow-lg p-4 plan-card">
+                            <i class="bi bi-rocket-takeoff fs-3 mb-3" style="color: #00c7e5;"></i>
+                            <h4 style="color: #007bff;">A Profissão que Me Inspira: Engenheiro de Software Full Stack
+                            </h4>
+                            <h6 style="color: #fff;">O caminho de Jovem Aprendiz me levou à Tecnologia da
+                                Informação, e a
+                                lógica por trás da criação de sistemas me inspira profundamente. Meu objetivo é me
+                                tornar um Engenheiro de Software Full Stack.
+                            </h6>
+                            <div class="row pt-3">
+                                <div class="col-md-6">
+                                    <h5 style="color: #ffffff;">Por que a Identificação?</h5>
+                                    <p class="small text-white">Eu me identifico com a capacidade de criar algo do
+                                        zero,
+                                        resolver problemas de escala e ver o impacto direto do meu código. A
+                                        referência
+                                        profissional para mim é o Andrew Mead, devido à sua didática e foco em
+                                        arquiteturas
+                                        robustas em Node.js.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 style="color: #ffffff;">Meus Passos para a Profissão:</h5>
+                                    <ul class="list-unstyled small text-white">
+                                        <li><i class="bi bi-check-circle me-2" style="color: #007bff;"></i> Concluir a
+                                            Graduação
+                                            em Análise e Desenvolvimento de Sistemas (ADS).</li>
+                                        <li><i class="bi bi-check-circle me-2" style="color: #007bff;"></i> Contribuir
+                                            para
+                                            projetos Open Source no GitHub.</li>
+                                        <li><i class="bi bi-check-circle me-2" style="color: #007bff;"></i> Buscar a
+                                            primeira
+                                            vaga como Desenvolvedor Júnior focado em Back-end Node.js.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="motivacao" class="py-5 text-white" style="background-color: #1a1a1d;">
+            <div class="container text-center">
+                <h2 class="text-center mb-5" style="color: #007bff;">Motivação e Propósito</h2>
+
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card shadow-lg p-4 h-100 plan-card">
+                            <i class="bi bi-lightbulb fs-2 mb-3" style="color: #00c7e5;"></i>
+                            <h5 style="color: #007bff;">O que me Motiva</h5>
+                            <h6 style="color: #fff;">A capacidade da tecnologia de transformar o trabalho e a vida
+                                das pessoas. Me
+                                motiva a ideia de deixar um legado de código eficiente e bem-feito.</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-lg p-4 h-100 plan-card">
+                            <i class="bi bi-flag fs-2 mb-3" style="color: #00c7e5;"></i>
+                            <h5 style="color: #007bff;">Obstáculos Superados</h5>
+                            <h6 style="color: #fff;">O maior obstáculo foi a transição de um ambiente técnico de
+                                infraestrutura
+                                para a lógica abstrata de desenvolvimento. Superei com disciplina de estudo e
+                                projetos práticos
+                                após o horário de trabalho.</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-lg p-4 h-100 plan-card">
+                            <i class="bi bi-calendar-check fs-2 mb-3" style="color: #00c7e5;"></i>
+                            <h5 style="color: #007bff;">Visão de Futuro</h5>
+                            <h6 style="color: #fff;">
+                                5 anos: Desenvolvedor Sênior em uma empresa de tecnologia global. <br>
+                                10 anos: Arquiteto de Software ou Liderança Técnica em projetos de grande
+                                escala.<br>
+                                20 anos: Empreendendo na área de soluções B2B com foco em Inteligência Artificial.
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="projetos" class="diferenciais py-5" style="background-color: #2c2c30;">
+            <div class="container">
+                <h2 class="text-center mb-5" style="color: #00c7e5;">Projetos (A Prova do meu Full Stack)</h2>
+                <div class="row g-4 justify-content-center text-center">
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card shadow-lg p-4 h-100"
+                            style="background-color: #1a1a1d; border: 1px solid #007bff;">
+                            <i class="bi bi-box-seam fs-2 mb-3" style="color: #00c7e5;"></i>
+                            <h5 style="color: #00c7e5;">Sistema de Gerenciamento de Estoque</h5>
+                            <h6 style="color: #fff;">Stack: Aplicação web desenvolvida com Python no back-end, SQLite
+                                ou PostgreSQL como banco de dados, e HTML/CSS no front-end. O foco está na lógica de
+                                autenticação, estruturação
+                                de rotas, e simulação de um fluxo de login típico de sistemas empresariais. Ideal para
+                                demonstrar integração entre front-end e back-end com foco em segurança e organização de
+                                dados.
+                            </h6>
+                            <a href="https://genestoque.netlify.app/" target="_blank" class="btn btn-sm mt-3"
+                                style="background-color: #007bff; color: #fff;">Ver Demo / Deploy</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card shadow-lg p-4 h-100"
+                            style="background-color: #1a1a1d; border: 1px solid #007bff;">
+                            <i class="bi bi-shop fs-2 mb-3" style="color: #00c7e5;"></i>
+                            <h5 style="color: #00c7e5;">Protótipo de Site para Empresa</h5>
+                            <h6 style="color: #fff;">Stack: Desenvolvido utilizando HTML5, CSS3 e JavaScript puro,
+                                com foco em estruturação semântica, estilização responsiva e interatividade básica. O
+                                site tem estrutura de múltiplas seções estáticas e navegação fluida, simulando um
+                                ambiente institucional real de empresa B2B. Ideal para apresentar domínio de front-end
+                                voltado a soluções comerciais.</h6>
+                            <a href="https://testeriofer.netlify.app/" target="_blank" class="btn btn-sm mt-3"
+                                style="background-color: #007bff; color: #fff;">Ver Deploy</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card shadow-lg p-4 h-100"
+                            style="background-color: #1a1a1d; border: 1px solid #007bff;">
+                            <i class="bi bi-calculator fs-2 mb-3" style="color: #00c7e5;"></i>
+                            <h5 style="color: #00c7e5;">Código Simples para Cálculo (IMC)</h5>
+                            <h6 style="color: #fff;">Stack: Construído com HTML, CSS e JavaScript, este projeto
+                                destaca o uso de lógica funcional no JavaScript, manipulação do DOM em tempo real e uma
+                                interface minimalista e intuitiva. A aplicação demonstra a capacidade de implementar
+                                soluções diretas com feedback instantâneo ao usuário. Também é um exemplo eficaz de como
+                                aplicar fundamentos de usabilidade e acessibilidade.</h6>
+                            <a href="https://vejaseuimc.netlify.app/" target="_blank" class="btn btn-sm mt-3"
+                                style="background-color: #007bff; color: #fff;">Ver Demo</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card shadow-lg p-4 h-100 d-flex flex-column justify-content-center align-items-center"
+                            style="background-color: #1a1a1d; border: 2px dashed #00c7e5;">
+
+                            <i class="bi bi-collection-fill fs-2 mb-3" style="color: #00c7e5;"></i>
+                            <h5 style="color: #00c7e5;">Central de Projetos e Repositório</h5>
+                            <h6 style="color: #fff;">Acesse a página centralizada com todos os meus deploys
+                                (Netlify) e o
+                                código-fonte completo no GitHub.
+                            </h6>
+
+                            <a href="URL_DA_PAGINA_COM_LINKS_NETLIFY" target="_blank" class="btn btn-lg w-100 mb-2"
+                                style="background-color: #00c7e5; color: #1a1a1d; font-weight: 600;">
+                                Ver Todos os Sites (Netlify) <i class="bi bi-link-45deg"></i>
+                            </a>
+
+                            <a href="https://github.com/JaoAmurim" target="_blank" class="btn btn-lg w-100"
+                                style="background-color: #007bff; color: #fff; font-weight: 600;">
+                                Código-fonte (GitHub) <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer id="contato" class="footer footer-custom text-light py-5">
+        <div class="container">
+            <div class="row gy-4">
+
+                <div class="col-lg-4 col-md-6">
+                    <h6 class="text-uppercase" style="color: #00c7e5;">Conclusão e Contato</h6>
+                    <p>
+                        "A melhor maneira de prever o futuro é criá-lo." - Peter Drucker. Agradeço imensamente a todos
+                        que me guiam na Riofer e no programa. <br>
+                        Minha inspiração é o meu primeiro supervisor, Ricardi Bini, que me mostrou a importância da
+                        excelência técnica e da proatividade.
+                        <br><br>
+                        <a href="http://maps.google.com/" target="_blank" class="text-light footer-link"
+                            style="text-decoration:none;" title="Localização atual (São José do Rio Pardo)">
+                            São José do Rio Pardo, SP - Brasil
+                        </a>
+                        <br><br>
+                        <strong>WhatsApp:</strong>
+                        <a href="https://wa.me/5519983249348" target="_blank" rel="noopener noreferrer"
+                            class="text-light footer-link" title="WhatsApp Pessoal">(19) 98324-9348</a><br>
+                        <strong>Email:</strong>
+                        <a href="mailto:joaopedronmamorim2007@gmail.com" rel="noopener noreferrer"
+                            class="text-light footer-link" title="Enviar email">joaopedronmamorim2007@gmail.com</a>
+                    </p>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="text-uppercase" style="color: #007bff;">Navegação</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#hero" class="text-light footer-link">Início</a></li>
+                        <li><a href="#jornada" class="text-light footer-link">Jornada (Aprendiz)</a></li>
+                        <li><a href="#profissao-e-skills" class="text-light footer-link">Profissão & Skills</a></li>
+                        <li><a href="#projetos" class="text-light footer-link">Meus Projetos</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="text-uppercase" style="color: #007bff;">Conquistas</h6>
+                    <p>Foco na excelência e aprendizado contínuo.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-star-fill small me-2" style="color: #00c7e5;"></i> Certificados de Cursos
+                        </li>
+                        <li><i class="bi bi-star-fill small me-2" style="color: #00c7e5;"></i> Avaliação de Desempenho
+                        </li>
+                        <li><i class="bi bi-star-fill small me-2" style="color: #00c7e5;"></i> Fluência Técnica em
+                            Inglês</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="text-uppercase" style="color: #007bff;">Conecte-se (Profissional)</h6>
+                    <p>Meu código e meu perfil no mercado de T.I. global.</p>
+                    <div class="d-flex align-items-center mt-2" style="gap: 12px;">
+
+                        <a href="https://github.com/JaoAmurim/" title="GitHub (Meu Código)" target="_blank" style="
+                            display: flex; align-items: center; justify-content: center;
+                            width: 40px; height: 40px;
+                            border: 2px solid #00c7e5;
+                            border-radius: 50%;
+                            color: #00c7e5;
+                            text-decoration: none;
+                            transition: all 0.3s ease;
+                            cursor: pointer;
+                            " class="footer-link"
+                            onmouseover="this.style.backgroundColor='#00c7e5'; this.style.color='#1a1a1d'; this.style.borderColor='#00c7e5'; this.style.boxShadow='0 0 8px #00c7e5';"
+                            onmouseout="this.style.backgroundColor=''; this.style.color='#00c7e5'; this.style.borderColor='#00c7e5'; this.style.boxShadow='none';">
+                            <i class="fab fa-github fa-lg"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-amorim-6b170b261/"
+                            title="LinkedIn (Meu Perfil)" target="_blank" style="
+                            display: flex; align-items: center; justify-content: center;
+                            width: 40px; height: 40px;
+                            border: 2px solid #007bff;
+                            border-radius: 50%;
+                            color: #007bff;
+                            text-decoration: none;
+                            transition: all 0.3s ease;
+                            cursor: pointer;
+                            " class="footer-link"
+                            onmouseover="this.style.backgroundColor='#007bff'; this.style.color='#fff'; this.style.borderColor='#007bff'; this.style.boxShadow='0 0 8px #007bff';"
+                            onmouseout="this.style.backgroundColor=''; this.style.color='#007bff'; this.style.borderColor='#007bff'; this.style.boxShadow='none';">
+                            <i class="fab fa-linkedin-in fa-lg"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="mt-4 mb-3" style="border-color: rgba(255,255,255,0.1);">
+
+            <div class="text-center small">
+                © 2025 João Pedro Amorim - Desenvolvido com <i class="bi bi-heart-fill small"
+                    style="color: #00c7e5;"></i> e o Código Limpo.
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        window.addEventListener('load', function () {
+            const preloader = document.getElementById('preloader');
+            if (preloader) {
+                preloader.style.opacity = '0';
+                preloader.style.visibility = 'hidden';
+                preloader.style.transition = 'opacity 0.5s ease';
+                setTimeout(() => {
+                    preloader.remove();
+                }, 500);
+            }
+        });
+    </script>
+
+</body>
+
+</html>
